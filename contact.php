@@ -26,7 +26,7 @@ if(trim($first_name) == '') {
 	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again With New vaild email address.</div>';
 	exit();
 }
 
