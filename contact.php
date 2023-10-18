@@ -31,7 +31,7 @@ if(trim($first_name) == '') {
 }
 
 if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	echo '<div class="error_message">Attention! Please enter your message which u want to show to developer.</div>';
 	exit();
 }
 
