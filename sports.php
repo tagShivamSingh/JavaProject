@@ -49,7 +49,7 @@ $address = "example@yourdomain.com";
 
 
 // Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
+// i.e. The standard subject will appear as, "You've been contacted by Nick jhon."
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
