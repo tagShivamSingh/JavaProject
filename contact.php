@@ -20,7 +20,7 @@ $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
 
 if(trim($first_name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">Attention! You must have to enter your name.</div>';
 	exit();
 }  else if(trim($email) == '') {
 	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
@@ -79,7 +79,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h1>Email Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$first_name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>$first_name</strong>, your message has been submitted to us. Please wait for the response</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

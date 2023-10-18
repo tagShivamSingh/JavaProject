@@ -23,7 +23,7 @@ if(trim($first_name) == '') {
 	echo '<div class="error_message">Attention! Your name is required.</div>';
 	exit();
 }  else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div class="error_message">Please enter a valid id</div>';
 	exit();
 } else if(!isEmail($email)) {
 	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
@@ -49,7 +49,7 @@ $address = "example@yourdomain.com";
 
 
 // Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
+// i.e. The standard subject will appear as, "You've been contacted by Nick jhon."
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
