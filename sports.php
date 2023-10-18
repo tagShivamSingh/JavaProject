@@ -20,7 +20,7 @@ $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
 
 if(trim($first_name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">Attention! Your name is required.</div>';
 	exit();
 }  else if(trim($email) == '') {
 	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
